@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+table,tr,th,td
+{
+    border: 1px solid rgb(179, 0, 161);
+            border-collapse: collapse;
+            width: 50%;
+           height: 70%;
+           background-color: azure;
+           margin:34px auto;
+           padding:9px ;
+           font-size: large;
+           
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Invoice bill table using colspam se bnaya hai -->
+    
+    <table>
+        <h1>INVOICE BILL</h1>
+        <tr>
+       
+            <th>Item/Desc</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th>Price</th>
+        </tr>
+    
+        <tr>
+            <td>PaperClips</td>
+            <td>100</td>
+            <td>1.15</td>
+            <td>115.00</td>
+        </tr>
+        <tr>
+            <td>Paper</td>
+            <td>10</td>
+            <td>45.99</td>
+            <td>459.90</td>
+        </tr>
+        <tr>
+            <td>Pen</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td colspan="3">Subtotal</td>
+            <td>777.00</td>
+        
+        </tr>
+        <tr>
+            <td colspan="2">Tax</td>
+            <td>7%</td>
+            <td>78.87</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total</td>
+            <td>790.00</td>
+
+        </tr>
+
+    </table>
+    
+</body>
+</html>
